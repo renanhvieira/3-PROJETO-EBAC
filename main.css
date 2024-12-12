@@ -1,0 +1,54 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+h1 text {
+    font-size:100;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #000000;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: Bebas neue;
+   
+}
+
+.text-colored {
+    color: #000000;
+}
+
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+/*  RESPONSIVIDADE */
+
+@media (max-width: 767px){
+    .carousel-item img {
+        height: 280px;
+    }
+}
